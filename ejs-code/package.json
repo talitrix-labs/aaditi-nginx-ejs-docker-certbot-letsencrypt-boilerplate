@@ -1,0 +1,20 @@
+{
+    "name": "EJS-Proxy-API-server",
+    "version": "1.0.0",
+    "description": "Express.js server that will send data to the nominetum system running as docker for API authorization",
+    "main": "index.js",  
+    "scripts": {
+      "start": "node index.js"  
+    },
+    "keywords": [
+      "express",
+      "dotenv",
+      "axios"
+    ],
+    "dependencies": {
+      "axios": "^1.7.2", 
+      "dotenv": "^16.4.5",  
+      "express": "^4.19.2" 
+    }
+  }
+  
